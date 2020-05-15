@@ -9,4 +9,7 @@ CountVectorizer Benchmark.ipynb = implementation of count vectorizer based BoW b
 TFIDF Benchmark.ipynb = implementation of TFIDF based BoW benchmarks
 
 
-We are in the process of implementing the BERT part of the project.
+
+The four sbatch files are used to run BERT large and ALBERT on NYU Prince. SCR = regression task, SCC = classification task
+
+The two .out files are training and evaluation logs from slurm output. We only upload the classification output because the regression output files are larger than 25MB and GitHub prevents us from uploading them.
