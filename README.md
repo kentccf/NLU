@@ -4,10 +4,15 @@ data_parser.py = script to parse the raw transcripts
 
 Label_Scraping.ipynb = script used to scrape the labels from YahooFinance API
 
-CountVectorizer Benchmark.ipynb = implementation of count vectorizer based BoW benchmarks
+CountVectorizer Transcript Level.ipynb = implementation of count vectorizer based BoW benchmarks - with transcript level aggregation
+CountVectorizer Chunk Level.ipynb = implementation of count vectorizer based BoW benchmarks
 
-TFIDF Benchmark.ipynb = implementation of TFIDF based BoW benchmarks
+TFIDF Transcript.ipynb = implementation of TFIDF based BoW benchmarks - with transcript level aggregation
+TFIDF Transcript.ipynb = implementation of TFIDF based BoW benchmarks
 
+glue.py = where we modify the data processors of the transformers library
+
+init.py = where we modify the metrics
 
 
 The four sbatch files are used to run BERT large and ALBERT on NYU Prince. SCR = regression task, SCC = classification task
